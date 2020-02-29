@@ -4,12 +4,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import javaPractice.DemoClass;
 
 public class FirstSeleniumTest {
 
 	//Execution starts from main method
 		public static void main(String[] args) {
-
+			
+			//call static methods from other classes
+			DemoClass.mul();
+			
 			//start writting code --> Selenium + Java
 
 			//specify browser driver--> chromedriver.exe
