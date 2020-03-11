@@ -14,6 +14,7 @@ public class variablesDemo {
 		boolean var = true;
 		System.out.println(num3);
 	}
+	
 	public void method2() {
 		int num1 = 10;	
 	}
