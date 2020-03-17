@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumPractice.CheckBoxDemo">
+      <class name="seleniumPractice.CaptureScreenShot">
         <methods>
-          <include name="CheckDemo"/>
+          <include name="checkLinks"/>
         </methods>
-      </class> <!-- seleniumPractice.CheckBoxDemo -->
+      </class> <!-- seleniumPractice.CaptureScreenShot -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
